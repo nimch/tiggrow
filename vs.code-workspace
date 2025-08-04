@@ -1,0 +1,38 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.defaultFormatter": "dprint.dprint",
+        "editor.formatOnSave": true,
+        "python.defaultInterpreterPath": ".venv/bin/python",
+        "python.testing.pytestEnabled": true,
+        "python.testing.pytestArgs": [
+            "tests"
+        ],
+        "[python]": {
+            "editor.codeActionsOnSave": {
+                "source.organizeImports": "explicit"
+            },
+            "editor.defaultFormatter": "charliermarsh.ruff",
+        },
+        "[javascript]": {
+            "editor.defaultFormatter": "dprint.dprint",
+        },
+    },
+    "extensions": {
+        "recommendations": [
+            "charliermarsh.ruff",
+            "ms-python.mypy-type-checker",
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "redhat.vscode-yaml",
+            "nefrob.vscode-just-syntax",
+            "bradlc.vscode-tailwindcss",
+            "devdojo.alpinejs-syntax-highlight",
+            "dprint.dprint",
+        ]
+    }
+}
