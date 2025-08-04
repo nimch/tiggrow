@@ -1,0 +1,31 @@
+/* static/party_app/src/input.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+/* NEW */
+
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Roboto", sans-serif;
+    --font-dancing-script: "Dancing Script", cursive;
+
+    /*NEW*/
+    --color-custom-powder-light: #eee2dc;
+    --color-custom-powder: #edc7b7;
+    --color-custom-blue: #123c69;
+    --color-custom-blue-light: #3a6aa4;
+    --color-custom-red: #ac3b61;
+}
+
+/*NEW*/
+@layer components {
+  .btn-default {
+    @apply py-2 px-4 font-semibold rounded-xl;
+    background-color: var(--color-custom-blue);
+    color: var(--color-custom-powder-light);
+  }
+
+  .btn-default:hover {
+    background-color: var(--color-custom-blue-light);
+  }
+}
