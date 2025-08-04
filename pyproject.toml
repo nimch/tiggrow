@@ -1,0 +1,94 @@
+[project]
+authors = [
+    { email = "olivier.niechajowiez@free.fr", name = "Olivier Niechajowiez" },
+]
+dependencies = [
+    "alembic==1.14",
+    # "alembic>=1.16.4",
+    # "email-validator>=2.2.0",
+    # "fastapi[standard]>=0.116.1",
+    # "httpx>=0.28.1",
+    # "python-multipart>=0.0.20",
+    # "sqlmodel>=0.0.24",
+    # "uvicorn>=0.35.0",
+    "fastapi[standard]>=0.116.1",
+    "sqlmodel==0.0.24",
+]
+description = "one pet app to replace them all"
+name = "tiggrow"
+readme = "README.md"
+requires-python = ">=3.12"
+version = "2025.0.0"
+license = { file = "LICENSE" }
+keywords = [
+    "python",
+    "fastapi",
+    "htmx",
+    "just",
+    "uv",
+    "pydantic",
+    "api",
+    "crud",
+    "sqlmodel",
+]
+
+[dependency-groups]
+check = [
+]
+commit = []
+dev = [
+    "pytest==8.3",
+]
+doc = []
+
+[project.urls]
+Documentation = "https://github.com/nimch/FasthapiX/blob/main/README.md"
+Homepage = "https://github.com/nimch/tiggrow"
+Repository = "https://github.com/nimch/tiggrow"
+"Bug Tracker" = "https://github.com/nimch/tiggrow/issues"
+Changelog = "https://github.com/nimch/tiggrow"
+
+[tool.uv]
+default-groups = ["check", "commit", "dev", "doc"]
+
+[tool.bandit]
+targets = ["."]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "v$version"
+version_scheme = "pep440"
+version_provider = "pep621"
+changelog_start_rev = "v1.0.0"
+update_changelog_on_bump = true
+
+[tool.coverage.run]
+branch = true
+source = ["."]
+omit = ["__main__.py"]
+
+[tool.mypy]
+pretty = true
+python_version = "3.13"
+check_untyped_defs = true
+ignore_missing_imports = true
+plugins = ["pandera.mypy", "pydantic.mypy", "sqlalchemy.ext.mypy.plugin"]
+
+[tool.pytest.ini_options]
+addopts = "--verbosity=2"
+pythonpath = ["."]
+
+[tool.ruff]
+fix = true
+indent-width = 4
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = ["D100", "D103"]

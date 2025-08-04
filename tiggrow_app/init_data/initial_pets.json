@@ -1,0 +1,65 @@
+[
+  {
+    "pet_name": "bob",
+    "pet_type": "Dog",
+    "link": null,
+    "encounter_id": "389f50c3-9e45-43b7-a578-dd17675c9369",
+    "uuid": "44a6b7b1-9f49-4383-8004-9d7b1ceafdf3"
+  },
+  {
+    "pet_name": "hot",
+    "pet_type": "Dog",
+    "link": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/30/dachshund.jpg?crop=1.00xw:0.668xh;0,0.260xh&resize=980:*",
+    "encounter_id": "00bb45a4-3936-477b-8113-323c57f51f08",
+    "uuid": "ab02de7e-b280-47e9-a6b4-09dbcc3893e0"
+  },
+  {
+    "pet_name": "Rose",
+    "pet_type": "Dog",
+    "link": "https://hips.hearstapps.com/hmg-prod/images/shibainu-dog-royalty-free-image-1752089989.pjpeg?crop=1xw:1xh;center,top&resize=980:*",
+    "encounter_id": "00bb45a4-3936-477b-8113-323c57f51f08",
+    "uuid": "0311c626-0586-4fd3-8f30-4e926ff055f7"
+  },
+  {
+    "pet_name": "snoopy",
+    "pet_type": "Dog",
+    "link": null,
+    "encounter_id": "00bb45a4-3936-477b-8113-323c57f51f08",
+    "uuid": "f86950be-4344-4d24-ac3f-b8cb9c3f6ecf"
+  },
+  {
+    "pet_name": "Chocolate",
+    "pet_type": "Cat",
+    "link": null,
+    "encounter_id": "00bb45a4-3936-477b-8113-323c57f51f08",
+    "uuid": "08c713dd-d5b2-4db4-91ef-92937f8d7af3"
+  },
+  {
+    "pet_name": "november",
+    "pet_type": "Cat",
+    "link": "https://en.wikipedia.org/wiki/File:Cat_November_2010-1a.jpg",
+    "encounter_id": "00bb45a4-3936-477b-8113-323c57f51f08",
+    "uuid": "43661bf8-2dc5-45ef-be5c-cde607ae3d16"
+  },
+  {
+    "pet_name": "felix",
+    "pet_type": "Cat",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Felis_silvestris_silvestris_Luc_Viatour.jpg/250px-Felis_silvestris_silvestris_Luc_Viatour.jpg",
+    "encounter_id": "00bb45a4-3936-477b-8113-323c57f51f08",
+    "uuid": "58c89bd4-8ca3-4153-ae70-882e478ed694"
+  },
+  {
+    "pet_name": "pelleteuse",
+    "pet_type": "Cat",
+    "link": null,
+    "encounter_id": "00bb45a4-3936-477b-8113-323c57f51f08",
+    "uuid": "2a8ee018-80ae-4b77-9f84-844c0dce336e"
+  },
+  {
+    "pet_name": "size",
+    "pet_type": "Cat",
+    "link": null,
+    "encounter_id": "00bb45a4-3936-477b-8113-323c57f51f08",
+    "uuid": "ca20dd3c-96fd-4576-b200-c579eb3880af"
+  }
+]
